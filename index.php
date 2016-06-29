@@ -1,1 +1,1 @@
-<?php include_once("oldindezbeforestlizer.html");?>
+<?php include_once("oldindexbeforestlizer.html");?>
