@@ -1,21 +1,31 @@
 
+
 * {
   box-sizing: border-box;
-	  text-align: center;}
+      text-align: center;}
 
-.header {
-	background: #777;
-	content: #ebebeb;
-	align-content: center;
-	width: body 960px section 495px;
-	padding: 20px;
-	margin-bottom: 10px;
-	float:center;
+body{
+ width: 100%;
+}
+
+#container{
+    width: 960px;
+    margin: 0px auto;
+
+}
+
+header {
+    background: #777;
+    content: #ebebeb;
+    align-content: center;
+    padding: 20px;
+    margin-bottom: 10px;
+    float:center;
     font-family: "aria","Helvetica Neue","Helvetica","sans-serif";
-    font-size: 18px	;																																																																																																																																					
-   }
+    font-size: 18px ;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+}
 
-nav {						
+nav {                       
 width: 960px;
 background: #777;
 font-family: "aria","Helvetica Neue","Helvetica","sans-serif";
@@ -29,10 +39,10 @@ font-size: 18px;
 }
 
 .group{
-	width: 465px;
+    width: 495px;
     background: #777;
     float: left;
-	font-family: "aria","Helvetica Neue","Helvetica","sans-serif";
+    font-family: "aria","Helvetica Neue","Helvetica","sans-serif";
     font-size: 18px;  
     margin-bottom: 20px;
     content: #ebebeb;
@@ -40,12 +50,7 @@ font-size: 18px;
 
 }
 
-
-body{
- width: 960px;
-}
-
-.h1{
+.headingsection{
     background-color: #ccc;
     margin-bottom: 20px;
     margin-top: 20px
@@ -54,28 +59,26 @@ body{
     height: 40px;
    
 }
-.p{
+.paragraphsection{
+
     background-color: #ccc;
     margin-bottom: 20px;
     margin-top: 20px
     padding: 30px;
     height: 40px;
-    
-
-}
+ }
 
 aside{
-    width: 465px;
+    width: 455px;
     background-color:#777;
     font-family: "aria","Helvetica Neue","Helvetica","sans-serif";
     font-size: 18px;
     content: #ebebeb;
     float: right;
-    height: 250px;
-    margin-bottom: 20px;
-    
+    height: 247px;
+    margin-bottom: 10px;
 
-}
+ }
 
 
 footer{
@@ -84,10 +87,9 @@ width: 960px;
 background: #777;
 content: #ebebeb;
 padding: 20px;
-margin-bottom: 20px;
 bottom: 0;
 font-size: 18px;
-margin-top: 20px;
+margin-bottom: 20px;
 
 }
 
